@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="AspirePayments.Api/AspirePayments.Api.csproj" />
+  <Project Path="AspirePayments.AppHost/AspirePayments.AppHost.csproj" />
+  <Project Path="AspirePayments.Data/AspirePayments.Data.csproj" />
+  <Project Path="AspirePayments.ServiceDefaults/AspirePayments.ServiceDefaults.csproj" />
+  <Project Path="AspirePayments.Tests/AspirePayments.Tests.csproj" />
+  <Project Path="AspirePayments.Worker/AspirePayments.Worker.csproj" />
+</Solution>

@@ -1,0 +1,23 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.6.1">
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspirePayments.Api\AspirePayments.Api.csproj" />
+    <ProjectReference Include="..\AspirePayments.Worker\AspirePayments.Worker.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.JavaScript" Version="13.6.1" />
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="13.6.3" />
+    <PackageReference Include="Aspire.Hosting.RabbitMQ" Version="13.6.2" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AspireUseCliBundle>true</AspireUseCliBundle>
+    <UserSecretsId>fcc8d0c3-2174-4133-a683-b8cdb1972165</UserSecretsId>
+  </PropertyGroup>
+
+</Project>
